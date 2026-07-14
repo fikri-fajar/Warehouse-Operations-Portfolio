@@ -18,11 +18,11 @@ This project was created as part of my self-directed learning in warehouse opera
 
 ## Project Objectives
 The objectives of this project are:
-•	To simulate real world warehouse operations using Microsoft Excel, covering the complete workflow from receiving goods to inventory reporting.
-•	To apply inventory management concepts such as stock movement tracking, stock balance maintenance, and data reconciliation.
-•	To develop practical Excel skills for organizing, processing, and analyzing warehouse operational data efficiently.
-•	To build a solid understanding of warehouse business processes that serves as a strong foundation for working with ERP and WMS systems.
-•	To document and showcase a practical warehouse case study using Excel
+-	To simulate real world warehouse operations using Microsoft Excel, covering the complete workflow from receiving goods to inventory reporting.
+-	To apply inventory management concepts such as stock movement tracking, stock balance maintenance, and data reconciliation.
+-	To develop practical Excel skills for organizing, processing, and analyzing warehouse operational data efficiently.
+-	To build a solid understanding of warehouse business processes that serves as a strong foundation for working with ERP and WMS systems.
+-	To document and showcase a practical warehouse case study using Excel
 
 
 
