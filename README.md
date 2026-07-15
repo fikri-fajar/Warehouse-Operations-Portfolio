@@ -25,7 +25,35 @@ The objectives of this project are:
 -	To document and showcase a practical warehouse case study using Excel
 
 
+## Business Process
 
+### Overview
+This project simulates the core warehouse operational workflow commonly found in a heavy equipment manufacturing environment. Rather than focusing on building an ERP or Warehouse Management System (WMS), the project aims to develop a practical understanding of the warehouse business processes that are commonly managed through these systems. Microsoft Excel is used as a simulation tool to model the flow of warehouse data across different operational activities, providing a practical representation of real world warehouse operations.
+
+...
+
+### Warehouse Operations Business Process
+The following diagram illustrates the end-to-end warehouse operational workflow simulated throughout this project.
+
+  <img src="assets/warehouse-operations-business-process.png" width="750">
+
+### Process Description
+
+| Process | Description |
+|----------|-------------|
+| Supplier | Approved suppliers provide raw materials or spare parts required for warehouse operations. |
+| Purchase Order | A Purchase Order (PO) is created to authorize the purchase of materials from suppliers. |
+| Goods Receipt (Receiving) | Incoming materials are received, verified against the Purchase Order, and recorded into inventory. |
+| Quality Inspection | Received materials are inspected to ensure they meet quality requirements before being accepted into inventory. |
+| Put Away | Approved materials are assigned and transferred to their designated storage locations. |
+| Storage | Materials are stored in warehouse locations until they are required for operational use. |
+| Inventory Management | Inventory records are maintained to monitor stock levels, locations, and material movements. |
+| Material Request | Internal departments submit requests for materials required for operational or production activities. |
+| Picking | Requested materials are picked from their storage locations according to the material request. |
+| Material Issue | Picked materials are issued and recorded as outbound inventory transactions. |
+| Cycle Count | Periodic physical inventory counting is performed to verify inventory accuracy. |
+| Inventory Adjustment | Inventory records are updated when discrepancies are identified during the cycle count process. |
+| Dashboard & Reporting | Warehouse operational data is summarized into reports and dashboards for inventory monitoring and decision-making. |
 
 
 
