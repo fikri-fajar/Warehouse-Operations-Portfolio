@@ -67,12 +67,13 @@ The workbook is organized into multiple worksheets, each representing a specific
 | **03_Master_Location** | Defines warehouse storage locations such as warehouse, zones, racks, and bins to support inventory organization and traceability. |
 | **04_Purchase_Order** | Records purchase orders issued to suppliers before materials are received into the warehouse. |
 | **05_Goods_Receipt** | Records incoming materials received from suppliers and updates inventory based on approved purchase orders. |
-| **06_Material_Request** | Records material requests from Production, Sales, Service, Dealers, or Branch Warehouses for outbound warehouse operations. |
-| **07_Picking_List** | Generates picking instructions based on approved material requests to support accurate and efficient warehouse picking operations. |
-| **08_Goods_Issue** | Records outbound material transactions after picking has been completed and updates inventory accordingly. |
-| **09_Stock_Card** | Maintains a complete history of inventory movements, including stock-in, stock-out, and running balances for each material. |
-| **10_Cycle_Count** | Records periodic physical inventory counts and identifies discrepancies between physical stock and system inventory. |
-| **11_Dashboard** | Presents warehouse KPIs, inventory summaries, stock movement analysis, and operational insights through interactive visualizations. |
+| **06_Put_Away** | Records the movement of received materials from the receiving area to their designated storage locations. |
+| **07_Material_Request** | Records material requests from Production, Sales, Service, Dealers, or Branch Warehouses for outbound warehouse operations. |
+| **08_Picking_List** | Generates picking instructions based on approved material requests to support accurate and efficient warehouse picking operations. |
+| **09_Goods_Issue** | Records outbound material transactions after picking has been completed and updates inventory accordingly. |
+| **10_Stock_Card** | Maintains a complete history of inventory movements, including stock-in, stock-out, and running balances for each material. |
+| **11_Cycle_Count** | Records periodic physical inventory counts and identifies discrepancies between physical stock and system inventory. |
+| **12_Dashboard** | Presents key warehouse performance indicators (KPIs), inventory summaries, stock movement analysis, and operational insights through interactive visualizations. |
 
 Together, these worksheets illustrate how warehouse master data, operational transactions, inventory control, and performance monitoring can be integrated into a structured warehouse management workflow.
 
