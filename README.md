@@ -25,7 +25,7 @@ The objectives of this project are:
 -	To document and showcase a practical warehouse case study using Excel
 
 
-## Business Process
+## Warehouse Operations Business Process
 
 ### Overview
 This project simulates the core warehouse operational workflow commonly found in a heavy equipment manufacturing environment. Rather than focusing on building an ERP or Warehouse Management System (WMS), the project aims to develop a practical understanding of the warehouse business processes that are commonly managed through these systems. Microsoft Excel is used as a simulation tool to model the flow of warehouse data across different operational activities, providing a practical representation of real world warehouse operations.
@@ -54,6 +54,29 @@ The following diagram illustrates the end-to-end warehouse operational workflow 
 | Cycle Count | Periodic physical inventory counting is performed to verify inventory accuracy. |
 | Inventory Adjustment | Inventory records are updated when discrepancies are identified during the cycle count process. |
 | Dashboard & Reporting | Warehouse operational data is summarized into reports and dashboards for inventory monitoring and decision-making. |
+
+---
+
+## Workbook Structure
+The workbook is organized into multiple worksheets, each representing a specific function within the warehouse operation. This structure follows the business process illustrated in the previous section, allowing data to flow logically from purchasing and receiving to inventory control and outbound material handling. 
+
+| Worksheet | Description |
+|------------|-------------|
+| **01_Master_Material** | Stores the master data for all materials, spare parts, consumables, and finished goods, including item codes, descriptions, categories, units of measure, and inventory-related attributes. |
+| **02_Master_Supplier** | Contains supplier master data used as a reference for purchasing transactions and supplier management. |
+| **03_Master_Location** | Defines warehouse storage locations such as warehouse, zones, racks, and bins to support inventory organization and traceability. |
+| **04_Purchase_Order** | Records purchase orders issued to suppliers before materials are received into the warehouse. |
+| **05_Goods_Receipt** | Records incoming materials received from suppliers and updates inventory based on approved purchase orders. |
+| **06_Material_Request** | Records material requests from Production, Sales, Service, Dealers, or Branch Warehouses for outbound warehouse operations. |
+| **07_Picking_List** | Generates picking instructions based on approved material requests to support accurate and efficient warehouse picking operations. |
+| **08_Goods_Issue** | Records outbound material transactions after picking has been completed and updates inventory accordingly. |
+| **09_Stock_Card** | Maintains a complete history of inventory movements, including stock-in, stock-out, and running balances for each material. |
+| **10_Cycle_Count** | Records periodic physical inventory counts and identifies discrepancies between physical stock and system inventory. |
+| **11_Dashboard** | Presents warehouse KPIs, inventory summaries, stock movement analysis, and operational insights through interactive visualizations. |
+
+Together, these worksheets illustrate how warehouse master data, operational transactions, inventory control, and performance monitoring can be integrated into a structured warehouse management workflow.
+
+
 
 
 
