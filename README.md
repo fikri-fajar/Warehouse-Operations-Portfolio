@@ -77,18 +77,3 @@ The workbook is organized into multiple worksheets, each representing a specific
 
 Together, these worksheets illustrate how warehouse master data, operational transactions, inventory control, and performance monitoring can be integrated into a structured warehouse management workflow.
 
-
-
-
-
-
----
-Bahasa Indonesia
-
-Sebuah proyek Microsoft Excel yang mensimulasikan operasional gudang di lingkungan manufaktur alat berat.
-
-Portofolio ini dibuat untuk menunjukkan pemahaman saya mengenai operasional gudang, manajemen persediaan, serta alur proses bisnis menggunakan Microsoft Excel.
-
-Proyek-proyek di dalamnya berfokus pada proses-proses utama di gudang, seperti Receiving, Put Away, Storage, Material Issue, Inventory Control, dan Stock Opname.
-
-Seluruh proyek merupakan simulasi yang dibuat sebagai sarana menerapkan konsep warehouse management ke dalam studi kasus menggunakan Microsoft Excel. Portofolio ini berfokus pada pemahaman alur proses warehouse, pengelolaan data, dan penyelesaian masalah operasional melalui Excel.
